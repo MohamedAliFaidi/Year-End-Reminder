@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500&family=Dancing+Script:wght@700&family=Mochiy+Pop+One&display=swap");
+/*
+imported fonts syntax;
+font-family: "Cormorant SC", serif;
+
+font-family: "Dancing Script", cursive;
+
+font-family: "Mochiy Pop One", sans-serif;*/
+* {
+  width: auto;
+  height: auto;
+}
+body{
+    height: 18%;
+}
+#header {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 30%;
+  font-family: "Dancing Script", cursive;
+  font-size: 500%;
+  color: rgb(255, 255, 255);
+  height: 45%;
+  display:flow-root;
+}
+
+#intro {
+  font-family: "Mochiy Pop One", sans-serif;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  font-size: 175%;
+  color: antiquewhite;
+}
+#intro:hover{transform: rotate(360deg);}
+#x {
+  margin-top: 100px;
+  margin-left: 15%;
+  margin-right: 25%;
+  background-color: rgb(252, 189, 196);
+  border-radius: 10px;
+}
+#x:hover {
+  transform: scale(1.1);
+  background-color: rgb(236, 92, 92);
+}
+.v {
+  margin-left: 3%;
+  font-family: "Cormorant SC", serif;
+  font-weight: bold;
+  font-size: 150%;
+  color: rgb(0, 0, 0);
+}
+.v:hover {
+  transform: scale(1.06);
+}
+
+#foot{
+  color: azure;
+  font-family: "Cormorant SC", serif;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 11%;
+  margin-left: 80%;
+}
+
+#ape {
+  width: 20%;
+  margin-top: 5%;
+  margin-bottom: 15%;
+
+  border-radius: 50%;
+  opacity: 0.88 ;
+  transition: transform .7s ease-in-out;
+
+}
+#ape:hover {
+transform:rotate(360deg)}
+#dd{
+    display: inline-flex;
+}
+#re{
+    margin-top: 15%;
+    margin-right: 15%;
+    color: azure;
+}
+.span{
+    transition: color .2s ease-in-out, box-shadow .3s ease-in-out;
+}
+.span:hover{
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+#f{
+    display:flow-root;
+}
+

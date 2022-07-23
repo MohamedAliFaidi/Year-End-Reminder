@@ -41,13 +41,15 @@ body {
   margin-top: 100px;
   margin-left: 15%;
   margin-right: 25%;
-  background-color: rgb(252, 189, 196);
+  background-color: rgb(177, 144, 144);
   border-radius: 10px;
   width: 20%;
+  transition: transform 0.7s ease-in-out;
+
 }
-#x:hover {
-  transform: scale(1.2);
-  background-color: rgb(236, 92, 92);
+#x:hover  {
+  transform: rotate(360deg);
+  background-color: rgb(255, 171, 171);
 }
 .v {
   margin-left: 3%;
@@ -66,7 +68,7 @@ body {
   font-size: larger;
   font-weight: bolder;
   margin-top: 11%;
-  margin-left: 80%;
+  margin-left: 5%;
 }
 
 #ape {
@@ -84,13 +86,42 @@ body {
 #dd {
   display: inline-flex;
 }
-#re {
-  margin-top: 15%;
-  margin-right: 15%;
-  color: azure;
-}
-#re:hover {
-  color: blue;
-}
+#re{color:beige;
+  font-size: larger;
+margin-right: 25%;}
+  #re:after{position:absolute;
+    transform:translateX(0) translateY(0);
+    transition:transform 1s ease-in-out;
+    content:"you.";}
+#re:hover:after {
+  transform:translateX(250px);
+}        
 #f {
   display: flow-root;}
+#note{font-family: "Mochiy Pop One", sans-serif;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  font-size: 175%;
+  color: antiquewhite;
+  transition: color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;}
+  #note:hover{box-shadow: inset 624px 0 0 0 #ff95fb;
+    color: black;}
+    #git{color:beige;
+    font-size: larger;}
+    #git:after{position:absolute;
+      transform:translateX(0) translateY(0);
+      transition:transform 1s ease-in-out;
+      content:"Github";}
+  #git:hover:after {
+    transform:translateX(250px);
+ }
+ #insta{color:beige;
+  font-size: larger;}
+  #insta:after{position:absolute;
+    transform:translateX(0) translateY(0);
+    transition:transform 1s ease-in-out;
+    content:"Instagram";}
+#insta:hover:after {
+  transform:translateX(250px);
+}        

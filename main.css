@@ -31,8 +31,12 @@ body{
   margin-left: 5%;
   font-size: 175%;
   color: antiquewhite;
+  transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+
 }
-#intro:hover{transform: rotate(360deg);}
+#intro:hover{box-shadow: inset 1125px 0 0 0 #ff95fb;
+  color: black;
+}
 #x {
   margin-top: 100px;
   margin-left: 15%;
@@ -84,11 +88,8 @@ transform:rotate(360deg)}
     margin-right: 15%;
     color: azure;
 }
-.span{
-    transition: color .2s ease-in-out, box-shadow .3s ease-in-out;
-}
+
 .span:hover{
-    box-shadow: inset 100px 0 0 0 #54b3d6;
   color: white;
 }
 #f{

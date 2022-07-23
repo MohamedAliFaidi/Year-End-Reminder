@@ -10,8 +10,8 @@ font-family: "Mochiy Pop One", sans-serif;*/
   width: auto;
   height: auto;
 }
-body{
-    height: 18%;
+body {
+  height: 18%;
 }
 #header {
   margin-bottom: 5%;
@@ -21,7 +21,7 @@ body{
   font-size: 500%;
   color: rgb(255, 255, 255);
   height: 45%;
-  display:flow-root;
+  display: flow-root;
 }
 
 #intro {
@@ -31,10 +31,10 @@ body{
   margin-left: 5%;
   font-size: 175%;
   color: antiquewhite;
-  transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
-
+  transition: color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
 }
-#intro:hover{box-shadow: inset 1125px 0 0 0 #ff95fb;
+#intro:hover {
+  box-shadow: inset 1125px 0 0 0 #ff95fb;
   color: black;
 }
 #x {
@@ -43,9 +43,10 @@ body{
   margin-right: 25%;
   background-color: rgb(252, 189, 196);
   border-radius: 10px;
+  width: 20%;
 }
 #x:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   background-color: rgb(236, 92, 92);
 }
 .v {
@@ -59,7 +60,7 @@ body{
   transform: scale(1.06);
 }
 
-#foot{
+#foot {
   color: azure;
   font-family: "Cormorant SC", serif;
   font-size: larger;
@@ -74,25 +75,22 @@ body{
   margin-bottom: 15%;
 
   border-radius: 50%;
-  opacity: 0.88 ;
-  transition: transform .7s ease-in-out;
-
+  opacity: 0.88;
+  transition: transform 0.7s ease-in-out;
 }
 #ape:hover {
-transform:rotate(360deg)}
-#dd{
-    display: inline-flex;
+  transform: rotate(360deg);
 }
-#re{
-    margin-top: 15%;
-    margin-right: 15%;
-    color: azure;
+#dd {
+  display: inline-flex;
 }
-
-.span:hover{
-  color: white;
+#re {
+  margin-top: 15%;
+  margin-right: 15%;
+  color: azure;
 }
-#f{
-    display:flow-root;
+#re:hover {
+  color: blue;
 }
-
+#f {
+  display: flow-root;}
